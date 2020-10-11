@@ -7,6 +7,10 @@ import * as serviceWorker from "./serviceWorker";
 import "bootstrap/dist/css/bootstrap.min.css";
 import About from "./components/about/About";
 import Experience from "./components/experience/Experience";
+import Amplify from "aws-amplify";
+import awsExports from "./aws-exports";
+
+Amplify.configure(awsExports);
 
 ReactDOM.render(
   <React.StrictMode>
