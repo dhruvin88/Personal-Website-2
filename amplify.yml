@@ -3,7 +3,7 @@ frontend:
   phases:
     # IMPORTANT - Please verify your build commands
     build:
-      commands: 
+      commands:
         - cd .\profile-website\
         - npm run build
   artifacts:
@@ -12,5 +12,5 @@ frontend:
     files:
       - '**/*'
   cache:
-    paths: 
+    paths:
       - node_modules/**/*
