@@ -1,16 +1,17 @@
 version: 1
 frontend:
   phases:
-    # IMPORTANT - Please verify your build commands
-    build:
+    preBuild:
       commands:
-        - cd .\profile-website\
-        - npm run build
+        - cd profile-website
+        - npm ci
+    build:
+      commands: 
+       - npm run build
   artifacts:
-    # IMPORTANT - Please verify your build output directory
     baseDirectory: build
     files:
       - '**/*'
   cache:
     paths:
-      - node_modules/**/*
+     - node_modules/**/*
