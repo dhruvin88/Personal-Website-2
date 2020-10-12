@@ -3,11 +3,14 @@ frontend:
   phases:
     # IMPORTANT - Please verify your build commands
     build:
-      commands: [cd .\profile-website\, npm install, npm start]
+      commands: 
+        - cd .\profile-website\
+        - npm run build
   artifacts:
     # IMPORTANT - Please verify your build output directory
-    baseDirectory: /
+    baseDirectory: build
     files:
       - '**/*'
   cache:
-    paths: []
+    paths: 
+      - node_modules/**/*
