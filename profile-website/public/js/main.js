@@ -253,8 +253,6 @@
 				$('.sticky-parent').removeClass('stick-detach');
 				$("#sticky_item").trigger("sticky_kit:detach");
 				$("#sticky_item").trigger("sticky_kit:unstick");
-
-				$("#sticky_item").stick_in_parent();
 			}
 			
 
@@ -263,8 +261,6 @@
 		});
 
 		$('.sticky-parent').css('height', h);
-
-		$("#sticky_item").stick_in_parent();
 
 	};
 
