@@ -46,12 +46,12 @@ export default class Introduction extends Component {
                     <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                       <div className="slider-text-inner">
                         <div className="desc">
-                          <h1>
+                          <h1 className="beige">
                             Check out my projects
                           </h1>
-                          <p>
+                          <p className="beige">
                             <a
-                              className="btn btn-primary btn-learn"
+                              className="btn btn-primary btn-learn beige"
                               href="https://github.com/dhruvin88"
                               target="_blank"
                               rel="noopener noreferrer"
