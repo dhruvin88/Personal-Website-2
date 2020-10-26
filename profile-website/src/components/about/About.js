@@ -53,7 +53,7 @@ export default class About extends Component {
                     <h3>Full Stack Developer</h3>
                     <p>
                       I have experience building applications from front-end to
-                      back-end.
+                      back-end. I build applications using .Net Core and Angular.
                     </p>
                   </div>
                 </div>
@@ -82,7 +82,7 @@ export default class About extends Component {
                     <h3>Machine Learning</h3>
                     <p>
                       For my Master's Degree, I got to research and making
-                      machine learning applications.
+                      machine learning applications. I'm currently interested in CNNs and GANs.
                     </p>
                   </div>
                 </div>
