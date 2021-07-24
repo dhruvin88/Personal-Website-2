@@ -32,7 +32,7 @@ export default class Experience extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Master's in Engineering Science Emphasis in Computer Science<span>August 2017 - May 2019</span></h2>
+                        <h2>Master's in Engineering Science Emphasis in Computer Science <span>August 2017 - May 2019</span></h2>
                         <p>I recieved my Master's in Engineering Science Emphasis in Computer Science from University of Mississippi in May 2019.  I focused majority of the time studying and researching in Machine Learning. In particular, I was researching how using pretrained weights on a CNN helps improve performance.</p>
                       </div>
                     </div>
@@ -54,7 +54,7 @@ export default class Experience extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Web Ops Intern<span>June 2016 - August 2016</span></h2>
+                        <h2>Web Ops Intern <span>June 2016 - August 2016</span></h2>
                         <p>I work as a Web Ops Intern for C Spire. In two months, I got to develop an application String Boot application that would display statistics for internal uses. I also got to make an application that would clean up old logs and help imporve their SEO (Search Engine Optimization).</p> 
                       </div>
                     </div>
