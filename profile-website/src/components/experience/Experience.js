@@ -15,14 +15,25 @@ export default class Experience extends Component {
             <div className="row">
               <div className="col-md-12">
                 <div className="timeline-centered">
+                <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-1">
+                        <i className="icon-pen2" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>Professional, Data Scientist <span>July 2019-Oct 2021</span></h2>
+                        <p>I'm currently working on building state of the art models and algorithems to solve tasks with computer vision in the mortgage industry. Implemented custom computer vision models using Resnets, U-Nets, etc.</p>
+                      </div>
+                    </div>
+                  </article>
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-3">
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Professional, Software Developer <span>July 2019-present</span></h2>
-                        <p>I currently work for Corelogic|FNC as a Software Developer on the Integrations team. My major part of the work has been enables communication between mutiple applications from external clients to internal applications. Recently, I help design and develop a centralized payment services for mutiple applications and different teams that uses a thrid parties API.</p>
+                        <h2>Professional, Software Developer <span>July 2019-Oct 2021</span></h2>
+                        <p>I work for Corelogic|FNC as a Software Developer on the Integrations team. My major part of the work has been enables communication between mutiple applications from external clients to internal applications. I designed and developed a centralized payment services for mutiple applications and different teams that uses a thrid parties API.</p>
                       </div>
                     </div>
                   </article>
